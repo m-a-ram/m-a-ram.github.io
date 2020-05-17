@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<body>
+<marquee direction="left" style="background-color:lightgreen" style="font-size:30px">Data Manipulation Language</marquee>
+<h1>SQL DELETE TABLE Statement</h1>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropbtn {
+  
+  background-color: #4CAF50;
+ }
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
+<body>
+<ul>
+  
+  <li class="dropdown">
+    <a href="deleteex.html" class="dropbtn">EXAMPLES</a>
+</li>
+</ul>
+<p>The DELETE statement is used to delete existing records in a table.</p>
+<h2>DELETE Syntax</h2>
+<img src="deletesyntax.jpg">
+<p>Here, column1, column2, ... are the field names of the table you want to select data from. If you want to select all the fields available in the table, use the following syntax:</p>
+<img src="selectsyntax2.jpg">
+<style>
+div {
+  margin-bottom: 15px;
+  padding: 4px 12px;
+}
+.warning {
+  background-color: #ffffcc;
+  border-left: 6px solid #ffeb3b;
+}
+</style>
+<body>
+<div class="warning">
+  <p><strong>Note:</strong>Be careful when deleting records in a table! Notice the WHERE clause in the DELETE statement. The WHERE clause specifies which record(s) should be deleted. If you omit the WHERE clause, all records in the table will be deleted!</p>
+</div>
+<hr>
+<h2>DELETE All Records</h2>
+<p>It is possible to delete all rows in a table without deleting the table. This means that the table structure, attributes, and indexes will be intact:</p>
+<img src="deletesyntax2.jpg">
+</body>
+</html>
